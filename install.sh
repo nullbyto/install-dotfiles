@@ -17,5 +17,4 @@ else
   chezmoi=chezmoi
 fi
 
-script_dir="$(cd -P -- "$(dirname -- "$(command -v -- "$0")")" && pwd -P)"
-exec "$chezmoi" init --apply "--source=$script_dir"/
+exec "$chezmoi" init --apply nullbyto
