@@ -1,4 +1,4 @@
 [submodule "home"]
-	path = home
-	url = https://github.com/nullbyto/dotfiles.git
+    path = home
+    url = https://github.com/nullbyto/dotfiles.git
     branch = master
